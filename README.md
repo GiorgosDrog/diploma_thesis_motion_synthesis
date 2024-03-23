@@ -31,4 +31,11 @@ The schemmas below show the both architecture
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/982f983c-88c1-4c5e-893a-7226149fd3e8)
 
 <H2>Motion Synthesis</H2>
+To acheive the goal of the project we develop two methods. At first we take the already trained models and we use them for the moethod. We swap the decoder elements to blend the trained parameters for one motion with the encoded information of the other motion. With this way the decoder generates a mixed motion. The schema below represents the method architecture.
+
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/728f3ffe-dbe8-4668-a547-9326808deb6c)
+
+Furthermore the second method splits the motions in seperate categories. The categories are seperated with vector like [0.0,0.0,0.0,1.0,0.0] - > Jump , [0.0,0.0,0.0,0.0,1.0] - > Walk , [1.0,0.0,0.0,0.0,0.0] - > point , <b> [0.0,1.0,0.0,0.0,0.0] - >  rotate , [0.0,0.0,1.0,0.0,0.0] - > turn. When we split the animation in categories we trained a another model like the LSTM_Encoder_Decoder_Αttention with addition of an input to the decoder with will takes the cotegory vector. In the training phase the model must understand the connection and the categories. Also it must generate well the mesg vertices for the motion. With these changes at the inference mode of the model we can feed an category like [1.0,0.0,0.0,0.0,1.0] - > Walk + Point which must gives us the a mix motion of walking and pointing.
+
+
 <H2> HOW TO RUN THE CODE </H2>
