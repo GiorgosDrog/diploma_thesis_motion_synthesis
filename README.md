@@ -42,6 +42,21 @@ The schema below represents the architecture of the category model
 
 ![MainTechnique (1) (1)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c80cd8e5-567b-4f3d-ae0d-19f9665b7338)
 
-
+<H2> Results of the project  </H2>
++ Training and Validation diagrams 
++ Motion results 
++ Motion blending  -  Synthesis 
 
 <H2> HOW TO RUN THE CODE </H2>
+To run the code you must have already initialize all the libraries of the requirements (Cuda,PyTorch,Numpy,Matlib)
+Also the folder <b>npy_files</b> must be in the same path as the <b>newPytorch</b> script.
+The newPyTorch script is the main script of the project. In this script we initialize the models, the Datasets, and we handle the training and the test section of the models. Also, in the this script we develop the synthesis and the categories method.  
+
+
+<H2> Requirements to run  </H2>
+Cuda initialization 
+PyTorch
+Python 
+Blender setup 
+Matlib
+Numpy 
