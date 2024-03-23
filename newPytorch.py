@@ -1,5 +1,3 @@
-#works with the models.py script
-
 import torch
 import torch.nn as nn
 import numpy as np
