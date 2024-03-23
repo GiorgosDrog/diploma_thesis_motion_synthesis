@@ -15,11 +15,13 @@ For the DataSets we follow the class stucture which are appeared in the schema b
 
 
 <H2> WorkFlow </H2>
+
 ![ροήδεδομέωνΔιπλωματικη (3)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/08ea37ae-2d0c-4356-9044-93d4d4c37b46)
 
 <H2> Models architectures </H2>
 The models follow an Encoder Decoder architecture. The goal is the extraction meaningful information from bones matrices \n and with them we want to genereate the mesh vertices of the motion for each animation. for the project have beed developed two architecture, one with LSTM encoder decoder with attention mechanism and the second one with encoder decoder intermidiate calculations.   
 The schemmas below show the both architecture
+
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/420ae429-ae62-4c8f-8646-69a85df19ad1)
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/982f983c-88c1-4c5e-893a-7226149fd3e8)
 
