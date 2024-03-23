@@ -37,5 +37,9 @@ To acheive the goal of the project we develop two methods. At first we take the 
 
 Furthermore the second method splits the motions in seperate categories. The categories are seperated with vector like [0.0,0.0,0.0,1.0,0.0] - > Jump , [0.0,0.0,0.0,0.0,1.0] - > Walk , [1.0,0.0,0.0,0.0,0.0] - > point , [0.0,1.0,0.0,0.0,0.0] - >  rotate , [0.0,0.0,1.0,0.0,0.0] - > turn. When we split the animation in categories we trained a another model like the LSTM_Encoder_Decoder_Αttention with addition of an input to the decoder with will takes the cotegory vector. In the training phase the model must understand the connection and the categories. Also it must generate well the mesg vertices for the motion. With these changes at the inference mode of the model we can feed an category like [1.0,0.0,0.0,0.0,1.0] - > Walk + Point which must gives us the a mix motion of walking and pointing.
 
+The schema below represents the architecture of the category model 
+<H3>LSTM_encoder_decoder_attention_categories</H3>
+
+![MainTechnique (1) (1)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c80cd8e5-567b-4f3d-ae0d-19f9665b7338)
 
 <H2> HOW TO RUN THE CODE </H2>
