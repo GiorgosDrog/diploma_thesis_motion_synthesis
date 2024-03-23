@@ -42,4 +42,6 @@ The schema below represents the architecture of the category model
 
 ![MainTechnique (1) (1)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c80cd8e5-567b-4f3d-ae0d-19f9665b7338)
 
+
+
 <H2> HOW TO RUN THE CODE </H2>
