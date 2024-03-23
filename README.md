@@ -23,9 +23,11 @@ The models follow an Encoder Decoder architecture. The goal is the extraction me
 The schemmas below show the both architecture
 
 <H3>LSTM_Encoder_decoder_attention</H3>
+
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/420ae429-ae62-4c8f-8646-69a85df19ad1)
 
 <H3>LSTM_Encoder_Decoder</H3>
+
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/982f983c-88c1-4c5e-893a-7226149fd3e8)
 
 <H2>Motion Synthesis</H2>
