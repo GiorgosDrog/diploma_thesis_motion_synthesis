@@ -1,4 +1,4 @@
-This repository includes all the code related to the work of my Diploma thesis: <b>Motion synthesis about articulated 
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/b72d08a7-3eec-437a-bf19-2748041a93c3)This repository includes all the code related to the work of my Diploma thesis: <b>Motion synthesis about articulated 
 and non-articulated characters</b>, during the last year of my studies at the Computer Science and Enginneering Department of University of Ioannina.
 
 <H2>Blender</H2> 
@@ -44,8 +44,27 @@ The schema below represents the architecture of the category model
 
 <H2> Results of the project  </H2>
 + Training and Validation diagrams 
-+ Motion results 
-+ Motion blending  -  Synthesis 
+Below we represent example of training and validation
+
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/8ccb9f29-0c11-4e22-9c33-380097f27363)
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d3a1a77e-0587-4746-b17a-b183e8cf154b)
+
++ Motion results
+ ![Screenshot (1475)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/79116173-21f8-4c4a-a8ce-edf52b5bab54)
+
++ Motion blending  -  Synthesis
+Motion Synthesis results with Swap method 
+![Screenshot (1477)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d0649dd0-e013-4292-a1c1-f5539c9f1c25)
+
+
+Motion Synthesis result with categories method
+Jump + Walk - > [0.0,0.0,0.0,1.0,1.0]
+![Screenshot (1478)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/df455683-78f7-46f3-8c36-a118fd830b89)
+
+Jump + Point - > [1.0,0.0,0.0,1.0,0.0]
+![Screenshot (1479)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c87deec5-ab1a-49b3-8c66-40f8e10fc8f8)
+
+
 
 <H2> HOW TO RUN THE CODE </H2>
 To run the code you must have already initialize all the libraries of the requirements (Cuda,PyTorch,Numpy,Matlib)
