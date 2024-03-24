@@ -80,7 +80,7 @@ Steps to execute the code:
 
 + You can run the code by the script MainController.py, this includes all the mothods which are discribed above.
 + You have to choose between functionalities of the code, <b>Train, test, Synthesis,categories ,Evaluate categories </b>
-+ Yoy can generate new npy_files with the blender files. blend. when you open one of the blender file you can run code from blender scripts to visualize or generate new npy_files.
++ You can generate new npy_files with the blender files which have blend suffix. when you open one of the blender file you can run code from blender scripts to visualize or generate new npy_files.
 + we have all ready npy_files with bones and vertices information because these are nessecery for the Dataset initialization.
 + If you want to train or test a model, you must execute Test or Train.
 + By default we train the LSTM_Encoder_Decoder_Attention. WE can change this if you change the name of the initialization of the models at the MainController.py script
@@ -90,6 +90,10 @@ Steps to execute the code:
 Also you can use the Synthesis method if you choose <b> Synthesis </b> 
 To train the categories model choose <b> categories </b>
 To generate results of the categories model choose <b> Evaluate categories </b>
+
+<H3>Blender scripts<H3>
+The script LBS.py generates the bone and the mesh vertices of all the motions. 
+The script Visualize_mesh.py gives us the opportunity to visualize all the genereted mesh.
 
 
 
