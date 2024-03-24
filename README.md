@@ -87,7 +87,7 @@ Steps to execute the code:
 
 ![Screenshot (1480)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/9679fb1d-5179-467c-91c1-96e1c3cbffae)
 
-Also you can use the Synthesis method if you choose <b>Synthesis<\b>
+Also you can use the Synthesis method if you choose <b> Synthesis <\b>
 To train the categories model choose <b> categories </b>
 To generate results of the categories model choose <b> Evaluate categories </b>
 
