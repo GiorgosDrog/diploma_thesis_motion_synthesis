@@ -33,7 +33,7 @@ The schemmas below show the both architecture
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/982f983c-88c1-4c5e-893a-7226149fd3e8)
 
 <H2>Motion Synthesis</H2>
-To acheive the goal of the project we develop two methods. At first we take the already trained models and we use them for the moethod. We swap the decoder elements to blend the trained parameters for one motion with the encoded information of the other motion. With this way the decoder generates a mixed motion. The schema below represents the method architecture.
+To acheive the goal of the project we develop two methods. At first we take the already trained models and we use them for the moethod. We swap the decoder elements to blend the trained parameters for one motion with the encoded information of the other motion. With this way the decoder generates a mixed motion. The schema below represents the architecture of the method.
 
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/728f3ffe-dbe8-4668-a547-9326808deb6c)
 
