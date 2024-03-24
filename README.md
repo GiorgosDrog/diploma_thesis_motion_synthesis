@@ -50,18 +50,23 @@ Below we represent example of training and validation
 ![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d3a1a77e-0587-4746-b17a-b183e8cf154b)
 
 + Motion results
+  
  ![Screenshot (1475)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/79116173-21f8-4c4a-a8ce-edf52b5bab54)
 
 + Motion blending  -  Synthesis
-Motion Synthesis results with Swap method 
+Motion Synthesis results with Swap method
+
 ![Screenshot (1477)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d0649dd0-e013-4292-a1c1-f5539c9f1c25)
 
 
 Motion Synthesis result with categories method
+
 Jump + Walk - > [0.0,0.0,0.0,1.0,1.0]
+
 ![Screenshot (1478)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/df455683-78f7-46f3-8c36-a118fd830b89)
 
 Jump + Point - > [1.0,0.0,0.0,1.0,0.0]
+
 ![Screenshot (1479)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c87deec5-ab1a-49b3-8c66-40f8e10fc8f8)
 
 
