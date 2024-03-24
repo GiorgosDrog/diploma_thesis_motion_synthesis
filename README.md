@@ -98,7 +98,8 @@ To generate results of the categories model choose <b> Evaluate categories </b>
 + The LBS.py is working only in the GenerateData.blend file
 + The Visualize_mesh.py working only in the OnlyVisualization.blend file 
 
-
+<H2> Warning </H2>
+The GenerateData.blend is not in this repository. you can find the file in the google drive at this link 
 
 <H2> Requirements to run  </H2>
 The versions of the libraries to run the code appears below 
