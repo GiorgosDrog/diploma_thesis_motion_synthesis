@@ -49,14 +49,12 @@ The schema below represents the architecture of the category model
 
 <H2> HOW TO RUN THE CODE </H2>
 To run the code you must have already initialize all the libraries of the requirements (Cuda,PyTorch,Numpy,Matlib)
-Also the folder <b>npy_files</b> must be in the same path as the <b>newPytorch</b> script.
-The newPyTorch script is the main script of the project. In this script we initialize the models, the Datasets, and we handle the training and the test section of the models. Also, in the this script we develop the synthesis and the categories method.  
+Also the folder <b>npy_files</b> must be in the same path as the <b>MainController.py</b> script.
+The MainController.py script is the main script of the project. In this script we initialize the models, the Datasets, and we handle the training and the test section of the models. Also, in the this script we develop the synthesis and the categories method.  
 
 
 <H2> Requirements to run  </H2>
-Cuda initialization 
-PyTorch
-Python 
-Blender setup 
-Matlib
-Numpy 
+The versions of the libraries to runt the code appears below 
+
+![Screenshot (1474)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/6b8c4538-7d4f-4379-96f8-82e8abee863e)
+
