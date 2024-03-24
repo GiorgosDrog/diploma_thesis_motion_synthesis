@@ -44,8 +44,32 @@ The schema below represents the architecture of the category model
 
 <H2> Results of the project  </H2>
 + Training and Validation diagrams 
-+ Motion results 
-+ Motion blending  -  Synthesis 
+Below we represent example of training and validation
+
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/8ccb9f29-0c11-4e22-9c33-380097f27363)
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d3a1a77e-0587-4746-b17a-b183e8cf154b)
+
++ Motion results
+  
+ ![Screenshot (1475)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/79116173-21f8-4c4a-a8ce-edf52b5bab54)
+
++ Motion blending  -  Synthesis
+Motion Synthesis results with Swap method
+
+![Screenshot (1477)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/d0649dd0-e013-4292-a1c1-f5539c9f1c25)
+
+
+Motion Synthesis result with categories method
+
+Jump + Walk - > [0.0,0.0,0.0,1.0,1.0]
+
+![Screenshot (1478)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/df455683-78f7-46f3-8c36-a118fd830b89)
+
+Jump + Point - > [1.0,0.0,0.0,1.0,0.0]
+
+![Screenshot (1479)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/c87deec5-ab1a-49b3-8c66-40f8e10fc8f8)
+
+
 
 <H2> HOW TO RUN THE CODE </H2>
 To run the code you must have already initialize all the libraries of the requirements (Cuda,PyTorch,Numpy,Matlib)
@@ -53,6 +77,20 @@ Also the folder <b>npy_files</b> must be in the same path as the <b>MainControll
 The MainController.py script is the main script of the project. In this script we initialize the models, the Datasets, and we handle the training and the test section of the models. Also, in the this script we develop the synthesis and the categories method.  
 
 Steps to execute the code: 
+
++ You can run the code by the script MainController.py, this includes all the mothods which are discribed above.
++ You have to choose between functionalities of the code, <b>Train, test, Synthesis,categories ,Evaluate categories </b>
++ Yoy can generate new npy_files with the blender files. blend. when you open one of the blender file you can run code from blender scripts to visualize or generate new npy_files.
++ we have all ready npy_files with bones and vertices information because these are nessecery for the Dataset initialization.
++ If you want to train or test a model, you must execute Test or Train.
++ By default we train the LSTM_Encoder_Decoder_Attention. WE can change this if you change the name of the initialization of the models at the MainController.py script
+
+![Screenshot (1480)](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/9679fb1d-5179-467c-91c1-96e1c3cbffae)
+
+Also you can use the Synthesis method if you choose <b> Synthesis </b> 
+To train the categories model choose <b> categories </b>
+To generate results of the categories model choose <b> Evaluate categories </b>
+
 
 
 <H2> Requirements to run  </H2>
