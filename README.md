@@ -12,7 +12,9 @@ From motions like this we extract files with numpy format
 We already have extracted files in the folder npy_files. These files are used for Datasets about model's training and validation datasets 
 
 For the DataSets we follow the class stucture which are appeared in the schema below.
+<H2> Dataset </H2>
 
+![image](https://github.com/GiorgosDrog/diploma_thesis_motion_synthesis/assets/72260809/0a120926-4229-4270-94fe-2970596065c5)
 
 <H2> WorkFlow </H2>
 
