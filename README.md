@@ -78,7 +78,7 @@ The MainController.py script is the main script of the project. In this script w
 
 Steps to execute the code: 
 
-+ You can run the code by the script MainController.py, this includes all the mothods which are discribed above.
++ You can run the code by the script MainController.py, this includes all the mothods which are described above.
 + You have to choose between functionalities of the code, <b>Train, test, Synthesis,categories ,Evaluate categories </b>
 + You can generate new npy_files with the blender files which have blend suffix. when you open one of the blender file you can run code from blender scripts to visualize or generate new npy_files.
 + we have all ready npy_files with bones and vertices information because these are nessecery for the Dataset initialization.
