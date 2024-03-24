@@ -89,7 +89,7 @@ Steps to execute the code:
 
 Also you can use the Synthesis method if you choose <b> Synthesis </b> 
 To train the categories model choose <b> categories </b>
-To generate results of the categories model choose  Evaluate categories
+To generate results of the categories model choose <b> Evaluate categories </b>
 
 
 
