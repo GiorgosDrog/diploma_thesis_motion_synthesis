@@ -91,9 +91,12 @@ Also you can use the Synthesis method if you choose <b> Synthesis </b>
 To train the categories model choose <b> categories </b>
 To generate results of the categories model choose <b> Evaluate categories </b>
 
-<H3>Blender scripts<H3>
-The script LBS.py generates the bone and the mesh vertices of all the motions. 
-The script Visualize_mesh.py gives us the opportunity to visualize all the genereted mesh.
+<H3>Blender scripts</H3>
+
++ The script LBS.py generates the bone and the mesh vertices of all the motions. 
++ The script Visualize_mesh.py gives us the opportunity to visualize all the genereted mesh.
++ The LBS.py is working only in the GenerateData.blend
++ The Visualize_mesh.py working only in the 
 
 
 
